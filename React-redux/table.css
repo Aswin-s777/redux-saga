@@ -1,0 +1,41 @@
+.out tr td {
+border: 1px solid black;
+border-collapse: collapse;
+
+}
+.out th{
+border: 1px solid black;
+border-collapse: collapse;
+
+}
+.out{
+    width: 85%;
+    margin-left:auto ;
+    margin-right: auto;
+    background-color:white ;
+    opacity: 0.7;
+    color: rgb(255, 2, 2);
+}
+.th1{
+    width: 40px
+}
+.th2{
+    width:547px
+}
+.th3{
+    width: 630px
+}
+.id{
+    width: 3.6%;
+}
+.tittle{
+    width:45.35%
+}
+table.out tbody ,table.out thead tr td{
+    display: block;
+
+}
+table.out tbody ,table.out thead th{
+    overflow-x:hidden ;
+    overflow-y: auto;
+}
